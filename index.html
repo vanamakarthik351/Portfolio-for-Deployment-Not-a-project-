@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanama Karthik - Personal Portfolio</title>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="IMG_20240806_002834_406.png" alt="Aryan Darji" width="80" style="border-radius: 20%;">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Vanama Karthik">Vanama Karthik</h1>
+          <p class="title">Building Myself As a Web Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:vanamakarthik351@gamil.com" class="contact-link">vanamakarthik351@gamil.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917416874366" class="contact-link">+91 7416874366</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-07-21">July 21, 2004</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Miriyalaguda,Nalgonda Dist, Telengana, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/vanamakarthik351" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vanama-karthik-5024852ab/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects-list</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a student pursuing a Bachelor's degree in Information Technology with a focus on web development. I have been actively involved in creating real-time projects in web applications and I am currently seeking internship opportunities to further enhance my skills and gain practical experience. I have a strong interest in web development and I am very excited about learning new technologies, exploring new projects, and contributing to meaningful projects. I am constantly learning new concepts in web development and working on side projects to expand my skills.
+          </p>
+          <p>
+            <br>• Proficient in web development technologies including HTML, CSS, JavaScript and learning more technologies.
+            </br>
+            • As a passionate web developer, I thrive on creating seamless user experiences through innovative design and robust coding solutions.
+            <br>
+            • Familiarity with version control systems like Git and collaboration platforms like GitHub.
+            <br>
+            • Strong understanding of the full web development life cycle.
+            </br>
+            • I am committed to learning and continuously seek to broaden my skill set through workshops and online courses, staying abreast of the latest industry trends.
+            <br>
+            • Identifying and rectifying bugs to maintain application quality and responsiveness.
+            <br>
+            • Explore my portfolio to see how I blend creativity with technology to craft solutions that resonate.
+            </br>
+          </p>          
+        </section>
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+      </article>
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Malla Reddy Colage Of Engineering And Technology</h4>
+
+              <span>2022 June — 2026 June</span>
+
+              <p class="timeline-text">
+                Bachelor of Technology - Information Technology
+                <br>
+                Grade: 80% Of Marks Obtain In Every Examinations.
+                </br>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana Junior Collage</h4>
+
+              <span>2020 June — 2022 June</span>
+
+              <p class="timeline-text">
+                Inter - MPC
+                <br>
+                Grade: 80% Of Marks Obtain In Every Examinations.
+                </br>
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <h5 class="h5 skills-title">Proficient in Web Development Technologies</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+          </li>
+
+        </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+        
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Programming Languages</h5>
+
+        <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="65">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="75">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+          <h5 class="h5 skills-title">Experience with Databases</h5>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL (SQL)</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+          </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Experience with Version Control Systems</h5>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Git</h5>
+              <data value="65">40%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 40%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">GitHub</h5>
+              <data value="70">50%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%;"></div>
+            </div>
+
+          </li>
+        </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Experience With Web Development Tools</h5>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">VS Code</h5>
+              <data value="90">80%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+          </li>
+          
+        </ul>
+        <button class="button">
+          <span class="button_lg">
+              <span class="button_sl"></span>
+              <span class="button_text"><a href="My Resume.pdf" class="res" target="_blank">DOWNLOAD MY RESUME</a></span>
+          </span>
+      </button>
+
+        </section>
+
+      </article>
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <h3>Projects Not Found</h3>
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Creative</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Critical</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Creative</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Critical</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://aryan-darji-07.github.io/Tic-Tac-Toe/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Tic Tac Toe" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tic Tac Toe</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="https://aryan-darji-07.github.io/CPU-Scheduling/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="CPU Scheduling" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CPU Scheduling</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://aryan-darji-07.github.io/Typing-Master/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="Typing Master" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Typing Master</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="https://aryan-darji-07.github.io/Contact-Information-QR-Code-Generator/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="QRContactGen" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">QRContactGen</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://aryan-darji-07.github.io/Whatsapp-Messaging/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="WhatsApp Messaging" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WhatsApp Messaging</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
